@@ -1,0 +1,50 @@
+// Base value
+@ffe-space: 8px;
+
+@ffe-space-xxs: (@ffe-space * 0.5);
+@ffe-space-xs: @ffe-space;
+@ffe-space-sm: (@ffe-space * 2);
+@ffe-space-md: (@ffe-space * 3);
+@ffe-space-lg: (@ffe-space * 4);
+@ffe-space-xl: (@ffe-space * 6);
+@ffe-space-xxl: (@ffe-space * 8);
+
+.ffe-space {
+    display: inline-block;
+    background: @ffe-grey-warm;
+    border: 1px solid @ffe-red;
+    margin: 4px;
+    font-size: 0;
+    line-height: 0;
+
+    &--xxs {
+        padding: @ffe-space-xxs;
+    }
+    &--xs {
+        padding: @ffe-space-xs;
+    }
+    &--sm {
+        padding: @ffe-space-sm;
+    }
+    &--md {
+        padding: @ffe-space-md;
+    }
+    &--lg {
+        padding: @ffe-space-lg;
+    }
+    &--xl {
+        padding: @ffe-space-xl;
+    }
+    &--xxl {
+        padding: @ffe-space-xxl;
+    }
+
+    .value {
+        width: 60px;
+        height: 30px;
+        line-height: 30px;
+        background: pink;
+        text-align: center;
+        border: 1px solid white;
+    }
+}
