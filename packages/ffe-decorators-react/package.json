@@ -33,7 +33,7 @@
     "mock-raf": "^1.0.0",
     "react": "^16.6.3",
     "react-addons-test-utils": "^15.6.2",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.6.3",
     "sinon": "^6.1.4"
   },
   "peerDependencies": {
