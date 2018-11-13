@@ -33,7 +33,7 @@
   },
   "peerDependencies": {
     "@sb1/ffe-spinner": "^3.0.0",
-    "react": "^16.2.0"
+    "react": "^16.6.3"
   },
   "publishConfig": {
     "access": "public"
