@@ -35,7 +35,7 @@
   },
   "peerDependencies": {
     "@sb1/ffe-lists": "^6.0.0",
-    "react": "^16.2.0"
+    "react": "^16.6.2"
   },
   "publishConfig": {
     "access": "public"
