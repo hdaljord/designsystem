@@ -33,7 +33,7 @@
     "eslint": "^5.3.0",
     "jest": "^23.4.2",
     "prop-types": "^15.6.0",
-    "react": "^16.2.0",
+    "react": "^16.6.3",
     "react-dom": "^16.2.0",
     "react-motion": "^0.5.2",
     "react-test-renderer": "^16.2.0",
