@@ -1,11 +1,12 @@
 .sb1ds-sidebar {
     background-color: @ffe-grey-cloud;
-    padding-top: 20px;
+    padding-top: 60px;
 
     @media screen and (min-width: @breakpoint-md) {
         border-right: 1px solid @ffe-grey-silver;
         min-height: 100vh;
         height: 100%;
+        padding-top: 20px;
     }
 
     @media screen and (min-width: @breakpoint-xl) {
@@ -52,8 +53,12 @@
 
     &__wrapper {
         margin: 0 -10px;
+        z-index: 1;
+        position: absolute;
+        width: 100%;
 
         @media screen and (min-width: @breakpoint-md) {
+            position: relative;
             height: 100%;
             margin: 0;
         }
